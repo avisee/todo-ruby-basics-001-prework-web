@@ -17,7 +17,10 @@ argue
 def greeting(name ="Bobby", greeting ="Hi there")
   puts "#{greeting}, #{name}"
  end
- greeting("Hello")
+ greeting
+ greeting 
+
+
 
 def return_a_value
 
